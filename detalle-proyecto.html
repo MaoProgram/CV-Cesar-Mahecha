@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hoja de vida</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2|Montserrat&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+
+    .info {
+      margin-top: 20px;
+    }
+
+    .tituloSeccion {
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    #linkedinLink a {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    #experienceList li,
+    #skillsList li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <th colspan="2" style="text-align: center;">CV Cesar Mauricio Mahecha Roa</th>
+    </tr>
+    <tr>
+      <td class="name" colspan="2">
+        <img src="C:\Users\Mauricio\Pictures\foto mia.png" alt="Foto de perfil" />
+        <p class="p-1">Cesar Mauricio Mahecha Roa</p>
+        <p class="p-2">Desarrollador de software full stack</p>
+        <p class="p-3">Bogotá, Colombia</p>
+      </td>
+    </tr>
+    <tr>
+        <th style="text-align: center;" >Perfil Profesional:</th>
+    </tr>
+    <tr>    
+      <td class="profileInfo" colspan="2">
+        <p class="infoinfo">Ingeniero electrónico en formación con experiencia en programación y desarrollo de software. Implementación de Machine Learning con Python, análisis e interpretación de datos, y creación de informes en Power BI, creación de diferentes aplicativos en Power Apps, administración de SharePoint, Power Automate y SQL Server. Excelente trabajo en equipo, comunicación asertiva y mejora continua, en busca de desafíos para aplicar conocimientos de forma innovadora.
+        </p>
+
+        <br />
+
+        <p class="infoCel">Celular:</p>
+        <p class="infoinfoCel">(+57) 317 589 61 74</p>
+        <br />
+      </td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <th>Experiencia Laboral</th>
+      <th>Habilidades Técnicas</th>
+    </tr>
+    <tr>
+      <td>
+        <ul id="experienceList">
+          <li>
+            <strong>ITS InfoCom:</strong> Gestor de Calidad (Practicante)
+            <br />
+            <span>Duración: 6 Meses</span>
+          </li>
+          <strong>Globalem S.A.S:</strong>
+          Analista de Datos Jr.
+          <br />
+          <span>Duración: 5 Meses</span>
+          <li>
+            <strong>Mision Temporal:</strong> Desarrollador Full Stack (Java - Angular) Jr.
+            <br />
+            <span>Duración: 5 Meses</span>
+        </ul>
+      </td>
+      <td>
+        
+        <ul id="skillsList">
+          <li>Programación (C, C++, Python, Java, Angular)</li>
+          <li>Automatización de Procesos (PLC, Ladder)</li>
+          <li>Proceso y Visualización de Datos (Power BI)</li>
+          <li>Desarrollo RPA (Power Platform)</li>
+        </ul>
+        <button id="addSkill">Añadir Habilidad</button>
+      </td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <th colspan="2">Idiomas</th>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <p class="tituloInfo">Español:</p>
+        <p class="infoinfo">Nativo</p>
+        <br />
+
+        <p class="tituloInfo">Ingles:</p>
+        <p class="infoinfo">Nivel B1</p>
+      </td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <th colspan="2">Certificaciones</th>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <ul id="listaCertificados">
+          <!-- Lista de certificaciones -->
+        </ul>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
