@@ -1,47 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <title>Hoja de vida</title>
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2|Montserrat&display=swap" rel="stylesheet" />
-  <style>
-    body {
-      font-family: 'Montserrat', sans-serif;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-bottom: 20px;
-    }
-
-    th, td {
-      border: 1px solid #ddd;
-      padding: 10px;
-      text-align: left;
-    }
-
-    .info {
-      margin-top: 20px;
-    }
-
-    .tituloSeccion {
-      border-bottom: 2px solid #333;
-      padding-bottom: 5px;
-      margin-bottom: 10px;
-    }
-
-    #linkedinLink a {
-      display: block;
-      margin-bottom: 5px;
-    }
-
-    #experienceList li,
-    #skillsList li {
-      margin-bottom: 10px;
-    }
-  </style>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hoja de vida</title>
+    <link rel="stylesheet" href="css/index.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2|Montserrat&display=swap" rel="stylesheet" />
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+  
+      th, td {
+        border: 1px solid #ddd;
+        padding: 10px;
+      }
+  
+      th:nth-child(1),
+      td:nth-child(2) {
+        width: 50%;
+      }
+    </style>
+  </head>
 <body>
   <table>
     <tr>
@@ -56,17 +36,13 @@
       </td>
     </tr>
     <tr>
-        <th style="text-align: center;" >Perfil Profesional:</th>
+        <th style="text-align: center;" >Perfil Profesional</th>
     </tr>
     <tr>    
       <td class="profileInfo" colspan="2">
         <p class="infoinfo">Ingeniero electrónico en formación con experiencia en programación y desarrollo de software. Implementación de Machine Learning con Python, análisis e interpretación de datos, y creación de informes en Power BI, creación de diferentes aplicativos en Power Apps, administración de SharePoint, Power Automate y SQL Server. Excelente trabajo en equipo, comunicación asertiva y mejora continua, en busca de desafíos para aplicar conocimientos de forma innovadora.
         </p>
 
-        <br />
-
-        <p class="infoCel">Celular:</p>
-        <p class="infoinfoCel">(+57) 317 589 61 74</p>
         <br />
       </td>
     </tr>
@@ -100,7 +76,7 @@
             <strong>ITS InfoCom:</strong> Gestor de Calidad (Practicante)
             <br />
             <span>Duración: 6 Meses</span>
-          </li>
+          <li>
           <strong>Globalem S.A.S:</strong>
           Analista de Datos Jr.
           <br />
