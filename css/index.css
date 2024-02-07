@@ -87,7 +87,7 @@ body {
   }
   
   #addSkill:hover {
-    background-color: #0a448f;
+    background-color: #447fb6;
   }
   
   .tituloInfo {
@@ -103,5 +103,113 @@ body {
   .listaCertificados li {
     margin-bottom: 10px;
   }
+  .accordion-section {
+    border: 1px solid #1388cc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
   
+  .accordion-title {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #12a1cc;
+    border: none;
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+  }
+  
+  
+  .accordion-title {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #379cb6c7;
+    border: none;
+    border-radius: 10px 10px 0 0; /* Ajusta según sea necesario */
+    width: 100%;
+    text-align: left;
+    height: 50px;
+  }
+  
+  .accordion-content.active {
+    display: block;
+  }
+  
+ 
+  .accordion-section {
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 2px;
+  }
+  
+  .accordion-title {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #9aceff;
+    border: none;
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 10px;
+    border-top: 1px solid #ffffff;
+  }
+  
+  .accordion-content.active {
+    display: block;
+  }
+  .contact-form {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 2px;
+    color: #000000;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2px;
+    box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  input[type="submit"] {
+    background-color: #444444;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #5a6064;
+  }
+  button {
+    background-color: #659bff; /* Color de fondo del botón */
+    color: #000000; /* Color del texto del botón */
+    padding: 10px 15px; /* Espaciado interno del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    margin-right: 10px; /* Espacio entre botones (puedes ajustar según necesites) */
+    font-size: 15px;
+  }
+  #saludoBtn {
+    margin-bottom: 10px;
+  }
   
